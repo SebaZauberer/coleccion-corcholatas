@@ -1,0 +1,17 @@
+#chapitas-list {
+    ul {
+        width: 57%;
+        margin-left: 23%;
+        padding-top: 80px;
+        overflow: hidden;
+        li {
+            float: left;
+            width: 250px;
+            height: 250px;
+            margin: 0 2px 4px;
+            a {
+                display: block;
+            }
+        }
+    }
+}

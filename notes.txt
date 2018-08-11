@@ -1,0 +1,3 @@
+//para auntentificar sencillamente en un sitio web con javascript
+
+https://medium.com/daniiable-in-the-workplace/como-hacer-un-login-con-javascript-y-html-sencillo-aff1dab6a6bf

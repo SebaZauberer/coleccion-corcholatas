@@ -1,0 +1,35 @@
+@import 'variables';
+
+@mixin f-size($sz) {
+    $szPx: #{$sz}px;
+    $szRem: ($sz*100/$fontSizeG)/100;
+    font-size: $szPx;
+    font-size: #{$szRem}rem;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+@mixin bgImg($img, $ph: center, $pv: top) {
+    background-image: url(#{$img});
+    background-repeat: no-repeat;
+    background-position: $ph $pv;
+}
+
+@mixin transition($duracion, $pro: all, $fx: ease-in-out) {
+    -webkit-transition: $pro #{$duracion}ms  $fx;
+    -moz-transition: $pro #{$duracion}ms  $fx;
+    -ms-transition: $pro #{$duracion}ms $fx;
+    -o-transition: $pro #{$duracion}ms  $fx;
+    transition: $pro #{$duracion}ms $fx;
+}
+
+%centerBox {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
