@@ -1,6 +1,6 @@
 @import 'variables';
 
-@mixin f-size($sz) {
+@mixin fSize($sz) {
     $szPx: #{$sz}px;
     $szRem: ($sz*100/$fontSizeG)/100;
     font-size: $szPx;

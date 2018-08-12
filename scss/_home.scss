@@ -1,3 +1,63 @@
+#facade {
+    height: 100vh;
+    min-height: 500px;
+    overflow: hidden;
+    border: 15px solid $black;
+    border-bottom: 0px;
+    .first-column {
+        float: left;
+        width: 30%;
+        height: 100%;
+        @include bgImg('../img/drink-beer.jpg');
+        background-size: cover;
+    }
+    .second-column {
+        float: left;
+        width: 30%;
+        h1 {
+            padding: 200px 15px;
+            text-align: center;
+            @include fSize(68);
+        }
+    }
+    .third-column {
+        background-color: $main;
+        float: left;
+        width: 40%;
+        height: 100%;
+        .icon-image {
+            height: 60%;
+            @include bgImg('../img/pexels-photo-1128975.jpeg');
+            background-size: cover;
+        }
+        .description {
+            height: 40%;
+            color: $white;
+            .master-review,
+            .record-box {
+                width: 50%;
+                float: left;
+                height: 100%;
+            }
+            .master-review {
+                p {
+                    padding: 20% 10% 10%;
+                    text-align: right;
+                }
+            }
+            .record-box {
+                background-color: $black;
+                p {
+                    text-align: center;
+                    vertical-align: middle;
+                    font-size: 220px;
+                    padding-top: 30%;
+                }
+            }
+        }
+    }
+}
+
 #chapitas-list {
     ul {
         width: 57%;
