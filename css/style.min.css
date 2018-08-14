@@ -29,13 +29,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 #header .logo a:hover { background-color: #FF4200; }
 
-#facade { height: 100vh; min-height: 500px; overflow: hidden; border: 15px solid #000; border-bottom: 0px; }
+#facade { height: 100vh; min-height: 500px; overflow: hidden; border-bottom: 0px; }
 
 #facade .first-column { float: left; width: 30%; height: 100%; background-image: url(../img/drink-beer.jpg); background-repeat: no-repeat; background-position: center top; background-size: cover; }
 
 #facade .second-column { float: left; width: 30%; }
 
-#facade .second-column h1 { padding: 200px 15px; text-align: center; font-size: 68px; font-size: 4.85714rem; }
+#facade .second-column h1 { padding: 180px 15px; text-align: center; font-size: 90px; font-size: 6.42857rem; font-family: 'Pirata One', cursive; }
 
 #facade .third-column { background-color: #FF4200; float: left; width: 40%; height: 100%; }
 
@@ -45,11 +45,11 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 #facade .third-column .description .master-review, #facade .third-column .description .record-box { width: 50%; float: left; height: 100%; }
 
-#facade .third-column .description .master-review p { padding: 20% 10% 10%; text-align: right; }
+#facade .third-column .description .master-review p { padding: 20% 10% 8%; text-align: right; font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 15px; line-height: 20px; }
 
 #facade .third-column .description .record-box { background-color: #000; }
 
-#facade .third-column .description .record-box p { text-align: center; vertical-align: middle; font-size: 220px; padding-top: 30%; }
+#facade .third-column .description .record-box p { text-align: center; vertical-align: middle; font-size: 220px; padding-top: 30%; font-family: 'Pirata One', cursive; }
 
 #chapitas-list ul { width: 57%; margin-left: 23%; padding-top: 80px; overflow: hidden; }
 

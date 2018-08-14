@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 500px;
     overflow: hidden;
-    border: 15px solid $black;
+    //border: 15px solid $black;
     border-bottom: 0px;
     .first-column {
         float: left;
@@ -15,9 +15,10 @@
         float: left;
         width: 30%;
         h1 {
-            padding: 200px 15px;
+            padding: 180px 15px;
             text-align: center;
-            @include fSize(68);
+            @include fSize(90);
+            font-family: 'Pirata One', cursive;
         }
     }
     .third-column {
@@ -41,8 +42,12 @@
             }
             .master-review {
                 p {
-                    padding: 20% 10% 10%;
+                    padding: 20% 10% 8%;
                     text-align: right;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 300;
+font-size: 15px;
+line-height: 20px;
                 }
             }
             .record-box {
@@ -52,6 +57,7 @@
                     vertical-align: middle;
                     font-size: 220px;
                     padding-top: 30%;
+                    font-family: 'Pirata One', cursive;
                 }
             }
         }
