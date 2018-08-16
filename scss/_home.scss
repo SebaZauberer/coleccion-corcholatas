@@ -1,8 +1,7 @@
 #facade {
     height: 100vh;
     min-height: 500px;
-    overflow: hidden;
-    //border: 15px solid $black;
+    overflow: hidden; //border: 15px solid $black;
     border-bottom: 0px;
     .first-column {
         float: left;
@@ -18,7 +17,7 @@
             padding: 180px 15px;
             text-align: center;
             @include fSize(90);
-            font-family: 'Pirata One', cursive;
+            font-family: $pirata;
         }
     }
     .third-column {
@@ -44,20 +43,27 @@
                 p {
                     padding: 20% 10% 8%;
                     text-align: right;
-                    font-family: 'Open Sans', sans-serif;
                     font-weight: 300;
-font-size: 15px;
-line-height: 20px;
+                    @include fSize(15);
+                    line-height: 20px;
                 }
             }
             .record-box {
                 background-color: $black;
+                position: relative;
                 p {
                     text-align: center;
                     vertical-align: middle;
-                    font-size: 220px;
-                    padding-top: 30%;
-                    font-family: 'Pirata One', cursive;
+                    @include fSize(220);
+                    padding-top: 20%;
+                    font-family: $pirata;
+                }
+                p+p{
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    @include fSize(24);
+                    padding: 20px;
                 }
             }
         }
@@ -66,17 +72,34 @@ line-height: 20px;
 
 #chapitas-list {
     ul {
-        width: 57%;
-        margin-left: 23%;
+        width: 60%;
         padding-top: 80px;
         overflow: hidden;
+        @extend %centerBox;
         li {
             float: left;
             width: 250px;
             height: 250px;
             margin: 0 2px 4px;
+            position: relative;
             a {
                 display: block;
+                .look {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    text-align: center;
+                    padding-top: 40%;
+                }
+                &:hover {
+                    .look {
+                        opacity: 1;
+                    }
+                }
             }
         }
     }

@@ -3,17 +3,85 @@
     top: 0;
     left: 0;
     background-color: $black;
-
-    .logo{
-        a{
-            padding: 20px 0;
-            display: block;
-            text-align: center;
-            img{
-                width: 60%;
+    z-index: 10;
+    color: $white;
+    width: 250px;
+    &.scroll-active {
+        .seba-logo {
+            padding-bottom: 10px;
+            img {
+                max-width: 75px;
             }
-            &:hover{
-                background-color: $main;
+        }
+        .scroll-elements {
+            display: block;
+        }
+    }
+    .seba-logo {
+        padding: 20px 0;
+        display: block;
+        text-align: center;
+        img {
+            width: 60%; //max-width: 75px;
+        }
+        &:hover {
+            background-color: $main;
+        }
+    }
+    .scroll-elements {
+        display: none;
+        .proyect-logo {
+            h2 {
+                text-align: center;
+                padding: 10px 0 20px;
+                font-family: $pirata;
+                @include fSize(40);
+                color: $main;
+            }
+        }
+        .filters {
+            padding: 10px 30px 0;
+            label,
+            select {
+                display: block;
+            }
+            label {
+                margin-bottom: 12px;
+                font-weight: 700;
+            }
+            select {
+                background: url('img/arrows.png') no-repeat;
+                background-position: center right 3px;
+                margin-bottom: 20px;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                outline: none;
+                background-color: $black;
+                color: $white;
+                border: 1px solid $white;
+                padding: 5px;
+                width: 100%;
+                @include fSize(15);
+                font-weight: 300;
+                cursor: pointer;
+                option {
+                    background-color: $white;
+                    color: $black;
+                    border: 1px solid $white;
+                }
+            }
+        }
+        .add-element {
+            a {
+                display: block;
+                color: $white;
+                padding: 20px 0;
+                border-top: 1px solid $white;
+                text-align: center;
+                &:hover {
+                    background-color: $main;
+                }
             }
         }
     }

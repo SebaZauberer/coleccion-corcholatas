@@ -39,7 +39,7 @@ html {
 }
 body {
 	line-height: 1;
-	font-family: sans-serif;
+	font-family: $opens;
 }
 ol, ul {
 	list-style: none;
@@ -55,4 +55,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a{
+	text-decoration: none;
 }
