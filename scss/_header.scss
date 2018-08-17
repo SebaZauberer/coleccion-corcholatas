@@ -36,7 +36,9 @@
                 padding: 10px 0 20px;
                 font-family: $pirata;
                 @include fSize(40);
-                color: $main;
+                a{
+                    color: $main;
+                }
             }
         }
         .filters {
@@ -72,7 +74,8 @@
                 }
             }
         }
-        .add-element {
+        .add-element,
+        .back-master {
             a {
                 display: block;
                 color: $white;
@@ -81,6 +84,7 @@
                 text-align: center;
                 &:hover {
                     background-color: $main;
+                    border-top: $main;
                 }
             }
         }

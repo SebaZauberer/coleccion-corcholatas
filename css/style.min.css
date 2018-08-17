@@ -41,7 +41,9 @@ a { text-decoration: none; }
 
 #header .scroll-elements { display: none; }
 
-#header .scroll-elements .proyect-logo h2 { text-align: center; padding: 10px 0 20px; font-family: "Pirata One", cursive; font-size: 40px; font-size: 2.85714rem; color: #FF4200; }
+#header .scroll-elements .proyect-logo h2 { text-align: center; padding: 10px 0 20px; font-family: "Pirata One", cursive; font-size: 40px; font-size: 2.85714rem; }
+
+#header .scroll-elements .proyect-logo h2 a { color: #FF4200; }
 
 #header .scroll-elements .filters { padding: 10px 30px 0; }
 
@@ -53,9 +55,9 @@ a { text-decoration: none; }
 
 #header .scroll-elements .filters select option { background-color: #fff; color: #000; border: 1px solid #fff; }
 
-#header .scroll-elements .add-element a { display: block; color: #fff; padding: 20px 0; border-top: 1px solid #fff; text-align: center; }
+#header .scroll-elements .add-element a, #header .scroll-elements .back-master a { display: block; color: #fff; padding: 20px 0; border-top: 1px solid #fff; text-align: center; }
 
-#header .scroll-elements .add-element a:hover { background-color: #FF4200; }
+#header .scroll-elements .add-element a:hover, #header .scroll-elements .back-master a:hover { background-color: #FF4200; border-top: #FF4200; }
 
 #facade { height: 100vh; min-height: 500px; overflow: hidden; border-bottom: 0px; }
 
@@ -80,6 +82,8 @@ a { text-decoration: none; }
 #facade .third-column .description .record-box p { text-align: center; vertical-align: middle; font-size: 220px; font-size: 15.71429rem; padding-top: 20%; font-family: "Pirata One", cursive; }
 
 #facade .third-column .description .record-box p + p { position: absolute; bottom: 0; width: 100%; font-size: 24px; font-size: 1.71429rem; padding: 20px; }
+
+#chapitas-list { min-height: 100vh; }
 
 #chapitas-list ul { width: 60%; padding-top: 80px; overflow: hidden; }
 

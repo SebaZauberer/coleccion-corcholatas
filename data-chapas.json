@@ -1,166 +1,148 @@
 {
     "data":[
         {
-            "id": 1,
             "brand": "Escudo",
             "country": "Chile",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 2,
             "brand": "Kross",
             "country": "Chile",
             "type": "Pils (verde)",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 3,
             "brand": "Benediktiner",
             "country": "Alemania",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 4,
             "brand": "Kross",
             "country": "Chile",
             "type": "5",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 5,
             "brand": "Franziskaner",
             "country": "Alemania",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 6,
             "brand": "Gambrinus",
             "country": "República Checa",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 7,
             "brand": "Antillanca",
             "country": "Chile",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 8,
             "brand": "Stella Artois",
             "country": "Bélgica",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 9,
             "brand": "Tübinger",
             "country": "Chile",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 10,
             "brand": "Corona",
             "country": "México",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 11,
             "brand": "Griffin Brewery",
             "country": "Inglaterra",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 12,
             "brand": "Gulden Draak",
             "country": "Bélgica",
             "type": "9000 quadruple",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 13,
             "brand": "Goose Island",
             "country": "USA",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 14,
             "brand": "Guinness",
             "country": "Irlanda",
             "type": "ninguna",
             "year": 2017,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 15,
             "brand": "Dorada",
             "country": "Chile",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 16,
             "brand": "Kunstman",
             "country": "Chile",
             "type": "ninguna",
             "year": 2017,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 17,
             "brand": "Kunstman",
             "country": "Chile",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         },
         {
-            "id": 18,
             "brand": "Lomza",
             "country": "Polonia",
             "type": "ninguna",
             "year": 2018,
             "img": "/img/",
-            "web": "#"
+            "web": ""
         }
     ]
 }
