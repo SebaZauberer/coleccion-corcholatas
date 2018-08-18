@@ -18,8 +18,10 @@
             </a>
             <section class="scroll-elements">
                 <div class="proyect-logo">
-                    <h2><a href="index.html">Corcholatas
-                        <br/> de Cerveza</a></h2>
+                    <h2>
+                        <a href="index.html">Corcholatas
+                            <br/> de Cerveza</a>
+                    </h2>
                 </div>
                 <div class="back-master">
                     <a href="index.html">Volver</a>
@@ -27,27 +29,26 @@
             </section>
         </header>
 
-        <section id="add-form">
-            <form>
-                <label for="">Ingresa el nombre de la marca:</label>
-                <input type="text">
-                <label for="">Ingresa la variedad a la que pertenece:</label>
-                <input type="text">
-                <label for="">Ingresa el país:</label>
-                <input type="text">
-                <label for="">Selecciona el año de adquisición:</label>
-                <select name="" id=""></select>
-                <label for="">Ingresa la direccíon de la imagen:</label>
-                <input type="text">
-                <label for="">Ingresa la url del sitio web de la marca:</label>
-                <input type="text">
-                <button type="submit">Agregar a la colección</button>
-            </form>
-        </section>
+        <form id="add-form">
+            <label for="marca">Ingresa el nombre de la marca:</label>
+            <input type="text" name="marca">
+            <label for="variedad">Ingresa la variedad a la que pertenece:</label>
+            <input type="text" name="variedad" placeholder="ninguna">
+            <label for="">Ingresa el país:</label>
+            <input type="text" name="pais">
+            <label for="">Selecciona el año de adquisición:</label>
+            <select name="anio"></select>
+            <label for="">Ingresa la ruta de la imagen:</label>
+            <input type="text" name="ruta">
+            <label for="">Ingresa la url del sitio web de la marca:</label>
+            <input type="text" name="sitioWeb">
+            <br><br>
+            <button type="submit" name="agregar">Agregar a la colección</button>
+        </form>
 
     </div>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/add.js"></script>
 </body>
 
 </html>

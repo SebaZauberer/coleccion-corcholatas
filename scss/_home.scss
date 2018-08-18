@@ -54,8 +54,8 @@
                 p {
                     text-align: center;
                     vertical-align: middle;
-                    @include fSize(220);
-                    padding-top: 20%;
+                    @include fSize(180);
+                    padding-top: 30px;
                     font-family: $pirata;
                 }
                 p+p{
@@ -88,6 +88,7 @@
                 overflow: hidden;
                 >img{
                     width: 100%;
+                    
                 }
                 .look {
                     position: absolute;
@@ -98,7 +99,10 @@
                     height: 100%;
                     background-color: rgba(0, 0, 0, 0.4);
                     text-align: center;
-                    padding-top: 40%;
+                    padding-top: 35%;
+                    img{
+                        max-width: 80px;
+                    }
                 }
                 &:hover {
                     .look {
