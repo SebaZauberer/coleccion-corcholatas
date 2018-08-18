@@ -1,0 +1,11 @@
+#add-form{
+    width: 60%;
+    @extend %centerBox;
+
+    label,
+    input,
+    select,
+    button{
+        display: block;
+    }
+}

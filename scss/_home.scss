@@ -27,7 +27,7 @@
         height: 100%;
         .icon-image {
             height: 60%;
-            @include bgImg('../img/pexels-photo-1128975.jpeg');
+            @include bgImg('../img/pexels-photo-1128975.jpg');
             background-size: cover;
         }
         .description {
@@ -85,6 +85,10 @@
             position: relative;
             a {
                 display: block;
+                overflow: hidden;
+                >img{
+                    width: 100%;
+                }
                 .look {
                     position: absolute;
                     top: 0;
