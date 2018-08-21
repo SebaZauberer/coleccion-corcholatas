@@ -16,7 +16,7 @@ function load() {
                 var content = document.createElement('li');
                 var link = document.createElement("a");
                 var img = document.createElement('img');
-                var imgContent = `
+                var seeMore = `
                 <div class="look">
                     <img src="img/lupa.png" alt="ver chapita">
                 </div>`;
@@ -27,7 +27,7 @@ function load() {
 
                 content.appendChild(link);
                 link.appendChild(img);
-                link.appendChild(imgContent);
+                link.appendChild(seeMore);
 
                 list.appendChild(content);
             });
